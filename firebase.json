@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "fitness-77683",
+    "public": "build",
+    "ignore": ["firebase.json", "**/.*"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
